@@ -1,22 +1,19 @@
-# mt-stealfuel
-Simple steal vehicle fuel script for QBCore
+# DT-stealfuel
+Heavily modified mt-stealfuel with added refuling option.
+This script allows players to steal fuel from vehicles by using empty jerry cans,
+and then refuel other vehicles using filled jerry cans. The process involves
+animations and progress bars to enhance realism and requires specific items for each action.
 
 # Preview:
-https://youtu.be/xIZs3WpWPAc
+soon
 
 # Instalation:
 
-Add to qb-core/shared/items.lua:
-```
-	-- mt-stealfuel
-	["jerrycan_combustivel"]  		= {["name"] = "jerrycan_combustivel", 				["label"] = "Empty JerryCan", 						["weight"] = 100, 		["type"] = "item", 			["image"] = "jerrycan_combustivel.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""},
-	["mangueira_combustivel"]  		= {["name"] = "mangueira_combustivel", 				["label"] = "Fuel Hose", 							["weight"] = 100, 		["type"] = "item", 			["image"] = "mangueira_combustivel.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = ""},
-
-```
+soon
 
 Drag and drop images to qb-inventory/html/images
 
 # Dependicies
 - qb-core - https://github.com/qbcore-framework/qb-core
 - qb-target - https://github.com/qbcore-framework/qb-target
-- ps-fuel - but any fuel script will work
+- ps-fuel - but any fuel script will work, just change it in the config
