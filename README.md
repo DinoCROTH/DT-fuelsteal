@@ -19,4 +19,4 @@ Drag and drop images to qb-inventory/html/images
 # Dependicies
 - qb-core - https://github.com/qbcore-framework/qb-core
 - qb-target - https://github.com/qbcore-framework/qb-target
-- LegacyFuel - https://github.com/qbcore-framework/LegacyFuel
+- ps-fuel - but any fuel script will work
