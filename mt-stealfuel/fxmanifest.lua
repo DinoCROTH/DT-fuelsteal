@@ -2,16 +2,22 @@ fx_version 'cerulean'
 
 game 'gta5'
 
-author 'Marttins#8421 (mt scripts)  '
+author 'DinoCROTH'
 
-description 'mt-stealfuel'
+description 'DT-fuelsteal'
 
-version '1.0'
+version '1.2'
 
-client_scripts{
+fx_version 'cerulean'
+games { 'gta5' }
+
+
+client_scripts {
+    'config.lua',
     'client.lua'
 }
 
-server_scripts{
+server_scripts {
+    'config.lua',
     'server.lua'
 }
